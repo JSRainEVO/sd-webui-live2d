@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+engine/.auto_env/
+engine/.auto_python/
+engine/.tools/
+engine/.uv-cache/
+engine/.model-cache/
+engine/third_party/
+engine/outputs/
+*.log
