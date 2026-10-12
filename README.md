@@ -10,9 +10,11 @@
 
 从文生图或图生图发送图片，也可以直接上传；插件会自动拆层、补全遮挡、估计深度、初步绑模，并导出模型与素材文件包。
 
-[📦 下载插件](https://github.com/JSRainEVO/sd-webui-live2d/releases) · [🚀 安装](#install) · [🧩 模型与环境](#setup) · [⏱️ 耗时](#timing) · [🎬 查看模型](#viewer) · [💬 反馈问题](https://github.com/JSRainEVO/sd-webui-live2d/issues)
+[下载插件](https://github.com/JSRainEVO/sd-webui-live2d/releases) · [安装](#install) · [模型与环境](#setup) · [耗时](#timing) · [查看模型](#viewer) · [反馈问题](https://github.com/JSRainEVO/sd-webui-live2d/issues)
 
 > **推荐图片：正面的二次元半身像。** 五官清晰、背景简单、头发遮挡较少时，更容易得到可用的初版。当前建议得到输出结果后，自行修改自动生成的 PSD，再重新导出。
+
+<br>
 
 ## 一眼了解
 
@@ -30,7 +32,9 @@
 
 经验证本项目在最低8gb显存的设备上可用。以上基于现有 8GB 设备的运行结果；较大尺寸会增加显存占用和处理时间。
 
-## ✨ 功能概览
+<br>
+
+## 功能概览
 
 | 功能 | 使用体验 |
 | :--- | :--- |
@@ -40,9 +44,11 @@
 | **首次环境准备** | 检测并补齐独立转换环境，支持提前整库下载模型 |
 | **任务控制与结果检查** | 显示运行记录、支持停止任务，输出转换检查报告 |
 
+<br>
+
 <a id="install"></a>
 
-## 🚀 安装插件
+## 安装插件
 
 ### 方式一：从仓库地址安装
 
@@ -72,9 +78,11 @@ extensions/
 
 **已有转换环境？** 在“转换环境目录”中填写原项目目录，即可复用已有环境和模型缓存。
 
+<br>
+
 <a id="setup"></a>
 
-## 🧩 第一次会安装和下载什么
+## 第一次会安装和下载什么
 
 ### 环境与转换工具
 
@@ -121,9 +129,11 @@ See-through 的依赖还包括 SciPy、scikit-image、Matplotlib、pandas、scik
 
 </details>
 
+<br>
+
 <a id="timing"></a>
 
-## ⏱️ 需要等多久
+## 需要等多久
 
 ### 首次准备：安装环境 → 下载模型 → 转换图片
 
@@ -158,7 +168,9 @@ See-through 的依赖还包括 SciPy、scikit-image、Matplotlib、pandas、scik
 
 </details>
 
-## 🖼️ 使用步骤
+<br>
+
+## 使用步骤
 
 1. **选择图片**：在文生图 / 图生图点选单张角色图片，点击“发送到 Live2D”，或上传 PNG、JPG、WebP。批量结果中的拼图需先切换成单张图片。
 2. **设置宽高**：拖动“宽度”“高度”滑条或输入数值，也可以按原图填写、交换宽高。首次建议 **512 × 512**。
@@ -178,9 +190,11 @@ See-through 的依赖还包括 SciPy、scikit-image、Matplotlib、pandas、scik
 
 </details>
 
+<br>
+
 <a id="viewer"></a>
 
-## 🎬 查看生成的模型
+## 查看生成的模型
 
 推荐使用官方 [Cubism Viewer for Unity](https://www.live2d.com/zh-CHS/cubism/download/viewer-unity/)。
 
@@ -200,7 +214,9 @@ See-through 的依赖还包括 SciPy、scikit-image、Matplotlib、pandas、scik
 
 素材预览展示的是拆层合成效果，最终动作效果请以查看器为准。
 
-## 🛠️ 当前效果与使用建议
+<br>
+
+## 当前效果与使用建议
 
 已有样例完成图片到 Live2D 文件包的全流程，并收到**实际 Forge 运行、完整导出和 Cubism Viewer 试用成功**的反馈。自动生成结果适合作为继续精修的初版，效果随输入图片变化。
 
@@ -223,7 +239,9 @@ reForge 实际集成、其他设备以及 CMO3 在官方 Editor 中编辑，仍�
 
 </details>
 
-## 🔄 升级与常见问题
+<br>
+
+## 升级与常见问题
 
 <details>
 <summary>如何升级并保留环境和模型？</summary>
@@ -241,7 +259,9 @@ reForge 实际集成、其他设备以及 CMO3 在官方 Editor 中编辑，仍�
 
 </details>
 
-## 🤝 第三方项目与许可
+<br>
+
+## 第三方项目与许可
 
 | 项目 | 用途 | 许可说明 |
 | :--- | :--- | :--- |
